@@ -1,0 +1,197 @@
+*{
+    list-style: none;
+font-family: sans-serif;
+text-decoration: none;
+
+}
+.img2  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 30px;
+    margin-bottom: -200px;
+}
+.img0
+{
+    width: 300px;
+    height: 700px;
+    margin-left: 70px;
+}
+.img1{
+    width: 600px;
+    height: 500px;
+    margin-left: -250px;
+}
+.said{
+    margin-left: -100px;
+    margin-top: 20px;
+}
+.img2 .img1 img{
+    display: inline-block;
+    margin-left:100px ;
+    margin-top: 50px;
+}
+.img0 img{
+width: 32%;
+display: block;
+border-radius: 10px;
+background-color: blanchedalmond;
+margin: 5px;
+margin-top: 25px;
+}       
+.img1 img{
+  width: 70%;
+  border-radius: 10px;
+  background-color: blanchedalmond;   
+  margin-left: -100px;
+  }
+.tabs{
+text-align: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+.aa i{
+color: #bcd131;
+}
+.tabs .tab{
+display: inline;
+padding: 10px;
+border-radius: 10px;
+background: rgb(211, 211, 170);
+margin-left: 20px;
+margin-bottom: 40px;
+}
+
+.tabs .active{
+background:#b18d62;
+color: rgb(0, 0, 0);
+}
+
+.count .con{
+display: inline;
+width: 50%;
+padding-left: 15px;
+margin-left: 10px;
+border-radius: 50%;
+background-color:blueviolet;
+}
+.count .con:nth-child(2){
+background-color: black;
+}
+.count .con:nth-child(3){
+background-color:#b18d62;
+}
+
+.button,.add,.ad,.a {
+margin: 10px;
+margin-top:10px ;
+padding: 10px;
+border-radius: 10px;
+margin-bottom: 40px;
+}
+.button button:hover{
+    background-color: #d1b592;
+    color: #000000;
+}
+.navlist{
+align-items: center;
+justify-content: space-around;
+display: flex;
+background: transparent;
+margin: 10;
+padding: 10px;
+margin-top: 50px;
+}
+.navlist a{
+color: rgb(0, 0, 0);
+font-size: 15px;
+font-weight: 700;
+} 
+.text p{
+   
+    font-weight: 300;
+    margin-left: 300px;
+    margin-bottom: 50px;
+
+
+}
+.img7 img{
+width: 300px;
+height: 200px;
+margin-left: 300px;
+border-radius: 10px;
+display: inline;
+background-color: bisque;
+justify-content: center;
+margin-top: 50px;
+margin-bottom: 50px;
+align-items: center;
+}
+.click{
+margin-left: 670px;
+color: #d18431;
+padding:10px 25px;
+background-color: aliceblue;
+border-color: #d18431;
+margin-top:100px;
+margin-bottom: 100px;
+border-radius: 5px;
+}
+.click:hover{
+    background-color: rgb(184, 179, 140);
+    color: #ffffff;
+}
+.abdoo{
+ 
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.section-title{
+    margin-left: 620px;
+}
+.topnav{
+    margin-left: 90px;
+    margin-top: -20px;
+}
+
+.abdo ,.saiid a{
+    text-align: center;
+}
+.saiid i{
+    color: #000000;
+}
+.saiid a{
+    color: #000000;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: larger;
+    font-weight: 900;
+}
+.abdoo a{
+    color: #000000;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: larger;
+    font-weight: 900;
+}
+.abdoo i{
+    color: #000000;
+}
+.abdooo a{
+    color: #000000;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: larger;
+    font-weight: 900;
+}
+.abdooo{
+    margin-bottom: 30px;
+    margin-left: 200px;
+   
+}
+.tabss .tab{
+    margin-left: 10px;
+    background-color: antiquewhite;
+
+}

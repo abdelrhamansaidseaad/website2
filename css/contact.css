@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  body {
+    height: 1420px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fixed-header
+{
+  width: 100%;
+  height: 55px;
+  background-color:#ae8047;
+  top: 0;
+  z-index: 19;
+  position: fixed;
+}
+.logo{
+  width: 90px;
+  height: 50px;
+  display: inline;
+  float: left;
+  margin-left: 50px;
+  margin-top:2.5px;
+  border-radius:6px;
+  background-color: brown;
+  color: brown;
+}
+.fixed-header h1{
+  display: inline-block;
+  margin: 4px;
+  color:bisque;
+}
+.call,.gmail,.facebook,.insta,.linked
+{
+  margin-left: 12px;
+  color: rgb(253, 238, 218);
+  font-size: 25px;
+}
+.facebook
+{
+  margin-left: 800px;
+  font-size: 25px;
+  color: rgb(253, 238, 218);
+}
+.call:hover,
+.gmail:hover,
+.facebook:hover,
+.insta:hover,
+.linked:hover{
+  color:black;
+}
+
+/******* nav-vertical  ***********/
+.nav-vertical{
+  width: 55px ;
+  height: 178px;               
+  background-color: beige;
+  position: fixed;
+  left: 0;
+  z-index: 15;
+  top: 250px;
+  margin-left: 2px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius:7px;
+
+}
+.call2,.whats,.messanger,.comment
+{
+  padding: 12px;
+  font-size: 28px;
+  color: rgb(179, 128, 61);
+  font-size: 30px;
+}
+.call2{
+  padding-top:15px;
+}
+.call2:hover,.whats:hover,.messanger:hover,.comment:hover
+{
+  color:black;
+}
+
+/**************** navbar-horizontal  *************/
+
+.horizontl-header {
+  width: 100%;
+  overflow: hidden;
+  background-color: beige;
+  padding: 10px 5px;
+  height: 60px;
+  z-index: 18;
+  position:relative;
+  top: 55px;
+  position: fixed;
+}
+.horizontl-header a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px; 
+  border-radius: 3px;
+  margin-left: 210px;
+}
+.horizontl-header a:hover {
+  background-color: rgb(205, 155, 94);
+  color: black;
+  text-decoration: none;
+}
+.header-left {
+  float: left;
+}
+.contact-active
+{
+  background-color: rgb(205, 155, 94);
+}
+/*contact */
+.contact-us1{
+  color: black;
+}
+.about-page-heading {
+  margin-top: 110px;
+  margin-bottom: 30px;
+  background-image: url(../images/closeup-business-woman-hand-typing-laptop-keyboard-with-m.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.page-heading .inner-content {
+  padding: 150px 0px;
+  text-align: center;
+}
+.page-heading .inner-content h2 {
+  font-size: 52px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.contact-us {
+  margin-top: 150px;
+  border-bottom: 3px dotted #eee;
+  padding-bottom: 90px;
+}
+
+.contact-us .section-heading {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.contact-us form input {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.contact-us form textarea {
+  width: 100%;
+  height: 140px;
+  min-height: 120px;
+  max-height: 200px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  line-height: 44px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+  border-radius: 10px;
+}
+.contact-us form button {
+  width: 200px;
+  height: 55px;
+  display: inline-block;
+  text-align: center;
+  line-height: 44px;
+  background-color: rgb(181, 124, 54);
+  box-shadow: none;
+  border: 1px solid transparent;
+  color: #fff;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+.contact-us form button:hover
+{
+  background-color: rgb(55, 53, 53);
+}
+.ul-contact li
+{
+  list-style: none;
+
+}
+.ul-contact li i
+{
+  margin-top: 25px;
+  color: black;
+  font-size: 22px;
+
+}
+.ul-contact li h1
+{
+  font-size: 30px;
+  margin-top: -25px;
+  margin-left: 40px;
+   
+}
+.ul-contact span{
+  width: 200px;
+  margin-left: 40px;
+  text-align:end;
+}
+.map-img
+{
+  display: block;
+  margin-left: 320px;
+  margin-top: -80px;
+  border-radius: 10px;
+}
+.ph-clk1
+{
+  margin-top: -130px;
+}
+
+/******** Regester  */
+
+.container-register{
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  height: 620px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: 0.5px solid #B18D62;
+  margin:auto;
+  margin-top: 100px;
+  
+}
+
+.register-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.register-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.register-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-form button {
+  padding: 10px;
+  background-color: #cb924d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: rgb(105, 103, 103);
+}
+
+.photo2 {
+  flex: 1;
+  border-radius: 20px 0px 0px 20px;
+  background: url(../images/businessman-logging-his-tablet.jpg) center/cover no-repeat;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-size: 90% 90%;
+  border-radius: 10px;
+}
+
+/*login  */
+.container-login {
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  height: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border:  0.5px solid #B18D62;
+  margin:auto;
+  margin-top: 105px;
+}
+
+.login-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #cb924d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+.login-form button:hover {
+  background-color:rgb(92, 87, 87);
+}
+
+.photo {
+  flex: 1;
+  border-radius: 20px 0px 0px 20px ;
+  background: url(../images/businessman-logging-his-tablet.jpg) center/cover no-repeat;
+  background-size:90% 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+}
+/*  */
+/********* profile  */
+.profile-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 110px;
+  margin-bottom: 100px;
+}
+.profile-header {
+  background-color: #ede7e7;
+  color:black;
+  text-align: center;
+  padding: 20px;
+}
+.profile-content {
+  display: flex;
+  padding: 20px;
+}
+.photo-section {
+  margin-right: 20px;
+}
+.photo-section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.user-info {
+  flex: 1;
+}
+.user-info h2 {
+  color: #333;
+}
+.user-info p {
+  color: #555;
+  margin-bottom: 10px;
+}
+.edit-data-profile {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.edit-profile-form h2,
+.edit-data-profile h2 {
+  color: #333;
+}
+.edit-profile-form form,
+.edit-data-profile form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-profile-form label,
+.edit-data-profile label {
+  margin-bottom: 8px;
+  color: #555;
+}
+.edit-profile-form input,
+.edit-data-profile input,
+.edit-profile-form button,
+.edit-data-profile button {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cart-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cart-icon {
+  font-size: 24px;
+  color: #cb924d;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.cart-icon:hover {
+  color: #5e4f36;
+}
+.total-price {
+  color: #555;
+}
+.btn2:hover{
+background-color:#cb924d;
+}
+
+
+
+/***************** footer   ***************/
+/* Main Footer */
+footer .main-footer{	
+  padding: 20px 0;
+  background-color: rgb(185, 142, 81);
+  margin-top: 100px;
+}
+footer ul{
+  	padding-left: 0;
+  	list-style: none;
+  }
+/* Copy Right Footer */
+.footer-copyright {	
+  background: rgb(185, 142, 81);;
+	padding: 5px 0;
+  color: white;
+}
+.widget li a{
+  	color:black;
+    font-size: 19px;
+}
+.widget li a:hover{	color: black}
+.widget-title {margin-bottom: 20px;}
+.typo-light h1, .typo-light h2, .typo-light h3, .typo-light h4, 
+.typo-light h5, .typo-light h6,.typo-light p,.typo-light div,
+.typo-light span,.typo-light small{	color: #fff;}
+
+ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#c0843c;}
+ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
+.btn-footer{
+  width: 200px;
+  height: 60px;
+  border-radius: 9px;
+  /* border: 1px solid black; */
+  background-color:whitesmoke;
+ color:rgb(213, 133, 34);
+ font-size: 22px;
+}
+.btn-footer:hover, .btn:focus, .btn.active {background:black;
+  color: #fff;
+}
+.footi
+{
+  font-size: 35px;
+  color: blanchedalmond;
+}
+.footi:hover{
+  color: black;
+}
+.info-domain
+{
+  color: black;
+}
+

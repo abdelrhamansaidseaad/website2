@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  body {
+    height: 1500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fixed-header
+{
+  width: 100%;
+  height: 55px;
+  background-color:#ae8047;
+  top: 0;
+  z-index: 19;
+  position: fixed;
+}
+.logo{
+  width: 90px;
+  height: 50px;
+  display: inline;
+  float: left;
+  margin-left: 50px;
+  margin-top:2.5px;
+  border-radius:6px;
+  background-color: brown;
+  color: brown;
+}
+.fixed-header h1{
+  display: inline-block;
+  margin: 4px;
+  color:bisque;
+}
+.call,.gmail,.facebook,.insta,.linked
+{
+  margin-left: 12px;
+  color: rgb(253, 238, 218);
+  font-size: 25px;
+}
+.facebook
+{
+  margin-left: 800px;
+  font-size: 25px;
+  color: rgb(253, 238, 218);
+}
+.call:hover,
+.gmail:hover,
+.facebook:hover,
+.insta:hover,
+.linked:hover{
+  color:black;
+}
+
+/******* nav-vertical  ***********/
+.nav-vertical{
+  width: 55px ;
+  height: 178px;               
+  background-color: beige;
+  position: fixed;
+  left: 0;
+  z-index: 15;
+  top: 250px;
+  margin-left: 2px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius:7px;
+
+}
+.call2,.whats,.messanger,.comment
+{
+  padding: 12px;
+  font-size: 28px;
+  color: rgb(179, 128, 61);
+  font-size: 30px;
+}
+.call2{
+  padding-top:15px;
+}
+.call2:hover,.whats:hover,.messanger:hover,.comment:hover
+{
+  color:black;
+}
+
+/**************** navbar-horizontal  *************/
+
+.horizontl-header {
+  width: 100%;
+  overflow: hidden;
+  background-color: beige;
+  padding: 10px 5px;
+  height: 60px;
+  z-index: 18;
+  position:relative;
+  top: 55px;
+  position: fixed;
+}
+.horizontl-header a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px; 
+  border-radius: 3px;
+  margin-left: 210px;
+}
+.horizontl-header a:hover {
+  background-color: rgb(205, 155, 94);
+  color: black;
+  text-decoration: none;
+}
+.pro-active
+{
+  background-color: rgb(205, 155, 94);
+}
+.header-left {
+  float: left;
+}
+
+/***************** product  ********************/
+.section-header
+{
+  margin-top: 200px;
+}
+.list-product{
+  display: flex;
+  justify-content: center;
+}
+.list-product li{
+  margin: 10px 20px;
+  color: rgb(185, 180, 180);
+  font-size: 22px;
+}
+.products-items{
+display: grid;
+grid-template-columns: repeat(3,3fr);
+grid-gap:30px;
+margin: 30px 0px;
+margin-right: 100px;
+}
+
+.product-img{
+position: relative;
+background-repeat: no-repeat;
+
+}
+.product-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform:scalex(0);
+  opacity: 0.9;
+  transition: transform 0.2s;
+}
+.product-overlay ul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.product-overlay ul li{
+  width: 40px;
+  height: 40px;
+  background-color:rgb(179, 134, 79);
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.product-overlay ul li i{
+  color: #fff;
+  line-height: 40px;
+  font-size: 22px;
+}
+.product-item:hover .product-overlay{
+  transform: scalex(1);
+}
+.product-item i
+{
+  color: #fff;
+}
+.product-item i.active{
+  color: yellow;
+}
+.no-active{
+  color: black;
+}
+.product-info span{
+  display: block;
+  margin: 5px 0;
+  color:rgb(210, 125, 21);
+  font-size: 22px;
+}
+.product-info h3{
+  display: block;
+  margin: 5px 0;
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+}
+.product-info i{
+  margin-top: 10px;
+}
+.section-title
+{
+  margin-left: 540px;
+  color: rgb(179, 128, 61);
+  font-size: 35px;
+  margin-top: -70px;
+}
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: -15px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  background-color: rgb(216, 211, 211);
+  width: 250px;
+  margin-left: 550px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.isearch{
+  
+  margin-left: -45px;
+}
+.colps-detail
+{
+  font-size: 30px;
+}
+.add-cart{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 20px;
+  border: 1px solid bisque ;
+  background-color:rgb(179, 128, 61);
+  color: whitesmoke;
+}
+.add-cart:hover{
+  background-color: rgb(235, 177, 106);
+}
+.tabs{
+ margin-top: 50px;
+  text-align: center;
+}
+.tabs-num{
+  width: 50px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid beige;
+}
+.one{
+  background-color:rgb(179, 128, 61) ;
+}
+.tabs-num:hover{
+  background-color:gray;
+}
+
+
+
+/***************** footer   ***************/
+/* Main Footer */
+footer .main-footer{	
+  padding: 20px 0;
+  background-color: rgb(185, 142, 81);
+  margin-top: 100px;
+}
+footer ul{
+  	padding-left: 0;
+  	list-style: none;
+  }
+/* Copy Right Footer */
+.footer-copyright {	
+  background: rgb(185, 142, 81);;
+	padding: 5px 0;
+  color: white;
+}
+.widget li a{
+  	color:black;
+    font-size: 19px;
+}
+.widget li a:hover{	color: black}
+.widget-title {margin-bottom: 20px;}
+.typo-light h1, .typo-light h2, .typo-light h3, .typo-light h4, 
+.typo-light h5, .typo-light h6,.typo-light p,.typo-light div,
+.typo-light span,.typo-light small{	color: #fff;}
+
+ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#c0843c;}
+ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
+.btn-footer{
+  width: 200px;
+  height: 60px;
+  border-radius: 9px;
+  /* border: 1px solid black; */
+  background-color:whitesmoke;
+ color:rgb(213, 133, 34);
+ font-size: 22px;
+}
+.btn-footer:hover, .btn:focus, .btn.active {background:black;
+  color: #fff;
+}
+.footi
+{
+  font-size: 35px;
+  color: blanchedalmond;
+}
+.footi:hover{
+  color: black;
+}
+.info-domain
+{
+  color: black;
+}
+
